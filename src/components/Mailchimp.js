@@ -7,7 +7,7 @@ import { useContext } from "react";
 const CustomForm = ({ status, message, onValidated }) => {
   const [price] = useContext(PriceContext);
 
-  const landingpage = "workshop";
+  const landingpage = "sharing";
 
   const [email, setEmail] = useState("");
 
