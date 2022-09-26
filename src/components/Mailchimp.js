@@ -36,7 +36,7 @@ const CustomForm = ({ status, message, onValidated }) => {
   return (
     <div className="min-w-[170px]">
       <form className="" onSubmit={(e) => handleSubmit(e)}>
-        <div className="grid grid-cols-5 gap-2 w-100 md:min-w-[550px]">
+        <div className="grid grid-cols-5 gap-2 md:min-w-[550px]">
           {status === "success" && (
             <p className="col-span-1 lg:col-span-5 mb-5 	 text-lg text-gray-500">
               Success. You will be notified when we launch.
@@ -46,7 +46,7 @@ const CustomForm = ({ status, message, onValidated }) => {
             Email address
           </label>
           {status !== "success" ? (
-            <p className="col-span-full	 lg:col-span-5 mb-5 	 text-lg text-gray-500">
+            <p className="col-span-full	 lg:col-span-5 mb-5 	text-left text-lg text-gray-500">
               Join the waitlist for early access
             </p>
           ) : null}

@@ -27,10 +27,10 @@ export default function Hero() {
               lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
               fugiat aliqua.
             </p>
-
+<hr className="block lg:hidden py-5 mt-9"/>
             <div className="grid w-full h-8 grid-cols-[1fr_1fr_fr_1fr] lg:grid-cols-1">
               <div></div>
-              <div className="min-w-max col-span-2">
+              <div className="min-w-max col-span-2 mt-7">
                 <ShowPrice />
               </div>
               <div></div>

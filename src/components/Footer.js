@@ -8,7 +8,7 @@ export default function Footer() {
           Join the waitlist today and be among the first to get latest updates
           on <span className="inline text-sage">Writemind</span>
         </h2>
-        <div className="py-8 mt-8">
+        <div className="py-8 mt-8 max-w-xl">
           <Signup />
         </div>
       </div>
