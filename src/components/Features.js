@@ -1,6 +1,5 @@
 /* This example requires Tailwind CSS v2.0+ */
-import feature1 from "../images/feature1.png";
-import feature2 from "../images/feature2.png";
+
 import feature3 from "../images/calm.svg";
 
 export default function Features() {
@@ -82,7 +81,7 @@ export default function Features() {
           <div className="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
             <div className="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
               <img
-                className="w-full lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                className="w-full lg:absolute lg:h-full lg:w-auto lg:max-w-none"
                 src={feature3}
                 alt="Achieve your writing goals"
               />
