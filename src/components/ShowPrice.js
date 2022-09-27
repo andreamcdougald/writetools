@@ -6,14 +6,22 @@ export default function ShowPrice() {
   const [price] = useContext(PriceContext);
   const [open, setOpen] = useState(false);
 
+  function addToDataLayer() {
+    if (window.gtag) {
+      window.gtag('event', 'price_click', {
+        price
+      });
+    }
+  }
+  /* eslint-disable */
   useEffect(() => {
-    const priceDiv = document.getElementById("price");
-
-    priceDiv.addEventListener("click", () => setOpen(true));
-  }, []);
+    if (open) {
+      addToDataLayer();
+    }
+  }, [open]);
 
   return (
-    <div id="price" className="">
+    <div id="price" className="" onClick={() => setOpen(true)}>
       {open ? (
         <div className="">
           <div className="animate-[moveout_.2s_ease-out_forwards]">
