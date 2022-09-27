@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        sage: "#7D9E85",
-        sagedark: "#637e6a",
+        sage: "#D386F7",
+        sagedark: "#B176D3",
         cream: "#F9F0EB",
       },
       keyframes: {
