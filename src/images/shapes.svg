@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 707.8 424.2" style="enable-background:new 0 0 707.8 424.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'DINCondensed-Bold';}
+	.st1{font-size:27.9901px;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000037655567968363580770000005411721121602583188_);}
+	.st4{fill:url(#SVGID_00000079463802962567114820000006245816482540011909_);}
+</style>
+<g>
+	<text transform="matrix(1 0 0 1 286.1812 239.5615)"><tspan x="0" y="0" class="st0 st1">THREE </tspan><tspan x="0" y="33.6" class="st0 st1">ACT </tspan><tspan x="0" y="67.2" class="st0 st1">STRUCTURE</tspan></text>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="127.9458" y1="239.922" x2="480.1243" y2="239.922">
+		<stop  offset="0" style="stop-color:#FD9CC7"/>
+		<stop  offset="0.5153" style="stop-color:#FD5D31"/>
+		<stop  offset="1" style="stop-color:#F9B826"/>
+	</linearGradient>
+	<polygon class="st2" points="480.1,64.5 375.8,64.5 337.6,64.5 337.6,102.8 337.6,168.9 271.5,168.9 233.2,168.9 233.2,207.1 
+		233.2,272.8 166.2,272.8 127.9,272.8 127.9,311 127.9,415.3 166.2,415.3 166.2,311 233.2,311 233.2,311.4 271.5,311.4 271.5,207.1 
+		375.8,207.1 375.8,207.1 375.8,207.1 375.8,102.8 480.1,102.8 	"/>
+	
+		<linearGradient id="SVGID_00000035492521285067907300000009130695757495451266_" gradientUnits="userSpaceOnUse" x1="22.3203" y1="86.2162" x2="223.9071" y2="86.2162">
+		<stop  offset="0" style="stop-color:#FD9CC7"/>
+		<stop  offset="0.5153" style="stop-color:#FD5D31"/>
+		<stop  offset="1" style="stop-color:#F9B826"/>
+	</linearGradient>
+	
+		<polygon style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000035492521285067907300000009130695757495451266_);" points="
+		223.9,123.1 150.2,49.3 150.2,49.3 123.1,22.3 96.1,49.3 96.1,49.3 22.3,123.1 49.4,150.1 123.1,76.4 196.9,150.1 	"/>
+	
+		<linearGradient id="SVGID_00000020388920290827766670000009677734296059415686_" gradientUnits="userSpaceOnUse" x1="450.7534" y1="295.7219" x2="707.7534" y2="295.7219">
+		<stop  offset="0" style="stop-color:#FD9CC7"/>
+		<stop  offset="0.5153" style="stop-color:#FD5D31"/>
+		<stop  offset="1" style="stop-color:#F9B826"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_00000020388920290827766670000009677734296059415686_);" d="M579.3,424.2
+		c-70.9,0-128.5-57.6-128.5-128.5c0-70.9,57.6-128.5,128.5-128.5s128.5,57.6,128.5,128.5C707.8,366.6,650.1,424.2,579.3,424.2z
+		 M579.3,207.2c-48.8,0-88.5,39.7-88.5,88.5s39.7,88.5,88.5,88.5s88.5-39.7,88.5-88.5S628.1,207.2,579.3,207.2z"/>
+	<text transform="matrix(1 0 0 1 548.2128 286.5415)"><tspan x="0" y="0" class="st0 st1">HERO’S</tspan><tspan x="-8" y="33.6" class="st0 st1">JOURNEY</tspan></text>
+	<text transform="matrix(0.6838 -0.7297 0.7297 0.6838 17.4834 118.2117)" class="st0 st1">FREYTAG’S </text>
+	<text transform="matrix(0.7297 0.6838 -0.6838 0.7297 128.3046 17.4835)" class="st0 st1">PYRAMID</text>
+</g>
+</svg>
