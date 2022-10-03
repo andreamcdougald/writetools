@@ -20,6 +20,7 @@ const CustomForm = ({ status, message, onValidated }) => {
   };
 
   const handleSubmit = (e) => {
+    const viewedPrice = localStorage.getItem("viewedPrice");
     e.preventDefault();
     email &&
       email.indexOf("@") > -1 &&
@@ -27,6 +28,7 @@ const CustomForm = ({ status, message, onValidated }) => {
         EMAIL: email,
         LANDING: landingpage,
         PRICE: price,
+        MMERGE8: viewedPrice,
       });
   };
   function handleChange(e) {

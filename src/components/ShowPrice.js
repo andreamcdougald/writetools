@@ -8,15 +8,17 @@ export default function ShowPrice() {
 
   function addToDataLayer() {
     if (window.gtag) {
-      window.gtag('event', 'price_click', {
-        price
+      window.gtag("event", "price_click", {
+        price,
       });
     }
   }
+  localStorage.setItem("viewedPrice", "false");
   /* eslint-disable */
   useEffect(() => {
     if (open) {
       addToDataLayer();
+      localStorage.setItem("viewedPrice", "true");
     }
   }, [open]);
 
