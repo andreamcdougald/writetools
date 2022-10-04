@@ -4,7 +4,7 @@ import MailchimpSubscribe from "react-mailchimp-subscribe";
 import PriceContext from "./PriceGenerator";
 import { useContext } from "react";
 
-const CustomForm = ({ status, message, onValidated }) => {
+const CustomForm = ({ status, message, onValidated, viewedPrice }) => {
   const [price] = useContext(PriceContext);
 
   const landingpage = "guides and frameworks";
@@ -20,7 +20,6 @@ const CustomForm = ({ status, message, onValidated }) => {
   };
 
   const handleSubmit = (e) => {
-    const viewedPrice = localStorage.getItem("viewedPrice");
     e.preventDefault();
     email &&
       email.indexOf("@") > -1 &&
@@ -93,7 +92,7 @@ const CustomForm = ({ status, message, onValidated }) => {
   );
 };
 
-export function Signup() {
+export function Signup(props) {
   const postUrl = `https://writeway.us12.list-manage.com/subscribe/post?u=b1196d18ff516f1a287bc9e67&id=5afed049e3`;
 
   return (
@@ -106,6 +105,7 @@ export function Signup() {
               status={status}
               message={message}
               onValidated={(formData) => subscribe(formData)}
+              viewedPrice={props.viewedPrice} 
             />
           )}
         />

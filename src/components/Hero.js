@@ -2,7 +2,7 @@ import heroImg from "../images/rocket.svg";
 import ShowPrice from "./ShowPrice";
 import { Signup } from "./Mailchimp";
 
-export default function Hero() {
+export default function Hero(props) {
   return (
     <div className="relative bg-cream">
       <main className="lg:relative">
@@ -34,13 +34,13 @@ export default function Hero() {
             <div className="grid w-full h-8 grid-cols-[1fr_1fr_fr_1fr] lg:grid-cols-1">
               <div></div>
               <div className="min-w-max col-span-2 mt-7">
-                <ShowPrice />
+                <ShowPrice openPrice={props.openPrice} setOpenPrice={props.setOpenPrice} />
               </div>
               <div></div>
             </div>
 
             <div className="py-8 mt-8 lg:absolute">
-              <Signup />
+              <Signup viewedPrice={props.viewedPrice} />
             </div>
           </div>
         </div>
